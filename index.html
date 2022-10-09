@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="reset">
+                <button id="new_game" onclick="new_game()">NEW GAME</button>
+            </div>
+            <div class="container">
+                <div class="home">
+                    <div>
+                        <h1 id="home_team">HOME</h1>
+                    </div>
+                    <div id="scoreboard">0</div>
+                    <div class="score_btn">
+                        <button id="plus_1" onclick="add1()">+1</button>
+                        <button id="plus_2" onclick="add2()">+2</button>
+                        <button id="plus_3" onclick="add3()">+3</button>
+                    </div>
+                </div>
+                <div class="guest">
+                    <h1 id="guest_team">GUEST</h1>
+                    <div id="scoreboard_g">0</div>
+                    <div class="score_btn">
+                        <button id="plus_1g" onclick="add1_g()">+1</button>
+                        <button id="plus_2g" onclick="add2_g()">+2</button>
+                        <button id="plus_3g" onclick="add3_g()">+3</button>
+                    </div>
+                </div>
+            </div>
+            <div class="win">
+                <h3 id="win_team">The winning team is: </h3>
+            </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
